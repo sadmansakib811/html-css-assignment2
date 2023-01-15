@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Button */
+.btn-primary{
+color: #FFFFFF ;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+}
+/* ===============Header Section =============================*/
+
+.header-title{
+  color: #131313;
+  font-size: 45px;
+  margin: 50px 0 0 228px;
+}
+
+.header{
+    
+    background-color: rgba(255, 144, 14, 0.1);
+    height: auto;
+    margin-bottom: 85px;
+}
+
+/* =================Nav bar=========================== */
+
+.nav-div{
+    display: flex;
+    justify-content:space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 63px 240px 0 0;
+  }
+
+  ul li{
+    padding: 0 30px 0 30px;
+  }
+
+  /* ==================Banner Section================= */
+
+  .banner{
+    margin: 205px 0 0 147px;
+    justify-content: center;
+    
+  }
+
+  .banner-title{
+    color: #131313;
+    font-style: bold;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  .banner-description{
+    padding: 32px 0;
+  }
+
+  .banner-div{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner-img{
+    padding: 50px 0 45px 0;
+    height: 700px;
+    width: 1440px;
+
+  }
+
+
+
+
+
+  /* ================================Banner and Header section Ends here================ */
+
+  /* Quick Feature Section */
+  .quick-features{
+    justify-content: center;
+    
+  }
+.quick-features{
+  display: flex;
+  margin: 0 240px;
+  margin-bottom: 100px;
+    align-items: center;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+
+}
+
+
+.features-rightside-details{
+    justify-content: center;
+    margin: 0 0 0 73px;
+    
+}
+.f-title-break2{
+    color: #FD6E0A;
+}
+.f-title-break1{
+    color: #727272;
+    font-size: 45px;
+}
+
+.features-paragraph{
+    padding: 30px 0;
+}
+
+
+/*======================== Features you will love and enjoy================== */
+
+.features-u-will-love{
+    display: flex;
+    gap: 146px;
+    justify-content: center;
+}
+.fl-title{
+    border-left: thick solid #FD6E0A;
+}
+.fl-title h1{
+    padding-left: 20px;
+    font-size: 45px;
+}
+.fl-title-description{
+    padding:20px 0;
+}
+
+
+.ft-left-pointdiv{
+    
+    box-shadow: #727272;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px rgb(89, 93, 94);
+}
+
+.fl-right-img-div{
+    z-index: 1;
+}
+
+.right-square{
+    position: relative;
+    bottom: 100px;
+    right: 70px;
+    height: 100px;
+    width: 258px;
+  border-radius: 5px;
+    background-color: #FD6E0A;
+    padding: 45px;
+    padding-bottom: 0;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+
+/* =============================Some Facts Design Section============================= */
+
+
+.some-facts-grids{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+}
+.some-facts-content{
+    height: 241px;
+    width: 241px;
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.some-facts-content img{
+    height: 45px;
+    width: 45px;
+    
+}
+
+.some-facts-content h2{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================== Media Query ==================================*/
+@media only screen and (max-width: 600px) {
+    /* Header Section for mobile */
+    .header {
+      
+      
+    }
+    .banner-img{
+        width: 100%;
+        height: 500px;
+    }
+    .header-title{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-div{
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    ul{
+        flex-direction: column;
+       justify-content: center;
+    
+    }
+    .nav-bar{
+        justify-content: center;
+        
+        align-items: center;
+    }
+    ul li{
+        padding: 10px;
+        font-size: 30px;
+        
+    }
+    /* Banner */
+
+  .banner{
+    margin: 0;
+ }
+
+
+ /* Quick Feature mobile*/
+
+ .quick-features{
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   
+ }
+ .features-img{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     
+     
+ 
+ }
+ 
+ 
+ .features-rightside-details{
+     
+     margin: auto;
+     
+ }
+ .f-title-break2{
+     color: #FD6E0A;
+ }
+ .f-title-break1{
+     color: #727272;
+     font-size: 45px;
+ }
+ 
+ .features-paragraph{
+     padding: 30px 0;
+ }
+
+
+/*======================== Features you will love and enjoy================== */
+
+.features-u-will-love{
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 146px;
+    justify-content: center;
+}
+.fl-title{
+    border-left: thick solid #FD6E0A;
+}
+.fl-title h1{
+    padding-left: 20px;
+    font-size: 45px;
+}
+.fl-title-description{
+    padding:20px 0;
+}
+
+
+.ft-left-pointdiv{
+    
+    box-shadow: #727272;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px rgb(89, 93, 94);
+}
+
+.fl-right-img-div{
+    justify-content: center;
+}
+
+.fl-right-img-div img{
+    
+    width: 500px;
+    
+}
+
+
+.right-square{
+    position: relative;
+    bottom: 100px;
+    right: 0;
+    height: 100px;
+    width: 258px;
+  border-radius: 5px;
+    background-color: #FD6E0A;
+    padding: 45px;
+    padding-bottom: 0;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+
+
+
+
+  }
+
+  
+
