@@ -169,10 +169,22 @@ ul {
 
 
 /* =============================Some Facts Design Section============================= */
-
-
+.some-facts{
+    
+margin: 0 240px;
+margin-bottom: 180px;
+}
+.some-facts-title{
+    font-size: 45px;
+}
+.some-facts-texts p{
+    padding: 24px 0 100px 0;
+}
 .some-facts-grids{
+    position: relative;
+    left: 60px;
     display: grid;
+    gap: 40px;
     grid-template-columns: repeat(4, 1fr);  
 }
 .some-facts-content{
@@ -186,6 +198,12 @@ ul {
     align-items: center;
     
 }
+.some-facts-content:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+    background-color: blueviolet;
+}
 .some-facts-content img{
     height: 45px;
     width: 45px;
@@ -195,8 +213,57 @@ ul {
 .some-facts-content h2{
     padding: 10px;
 }
+/* ===========================Sponsor Section Design======================= */
+.our-sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.our-sponsors h1{
+    font-size: 45px;
+}
+.our-sponsors p{
+ padding: 50px 0;
+}
+
+.sponsor-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:155px
+
+}
+
+/* Video Section */
+
+.work-video{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.work-video h1{
+ font-size: 45px;
+ padding-bottom: 50px;
+}
+
+.work-video h1:hover{
+    color: crimson;
+}
 
 
+/* Footer */
+
+footer{
+    height: 100px;
+    display: flex;
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -339,7 +406,7 @@ ul {
 
 .fl-right-img-div img{
     
-    width: 500px;
+    width: 400px;
     
 }
 
@@ -348,8 +415,8 @@ ul {
     position: relative;
     bottom: 100px;
     right: 0;
-    height: 100px;
-    width: 258px;
+    height: 90px;
+    width: 200px;
   border-radius: 5px;
     background-color: #FD6E0A;
     padding: 45px;
@@ -359,6 +426,72 @@ ul {
     z-index: 2;
 }
 
+
+/* Some Facet mob screen */
+
+.some-facts{
+    
+    margin: auto;
+        
+    }
+    .some-facts-texts p{
+        padding: 24px 0 100px 0;
+    }
+    .some-facts-grids{
+        position: relative;
+        left: 0;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .some-facts-content{
+        height: 241px;
+        width: 241px;
+        border: 1px solid #FF900E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .some-facts-content:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+        background-color: blueviolet;
+    }
+    .some-facts-content img{
+        height: 45px;
+        width: 45px;
+        
+    }
+    
+    .some-facts-content h2{
+        padding: 10px;
+    }
+
+
+    /* Sponsor */
+
+    .sponsor-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:30px;
+    
+    }
+
+
+    /* Work Video Section */
+    .work-video{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 130px;
+        
+    }
+    .iframe-width{
+        width: auto;
+    }
 
 
 
