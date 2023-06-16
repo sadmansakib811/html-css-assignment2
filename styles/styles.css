@@ -177,6 +177,9 @@ margin-bottom: 180px;
 .some-facts-title{
     font-size: 45px;
 }
+.some-facts-texts{
+text-align: center;
+}
 .some-facts-texts p{
     padding: 24px 0 100px 0;
 }
